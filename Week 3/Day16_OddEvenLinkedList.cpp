@@ -40,7 +40,7 @@ public:
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-class Solution {
+class Solution { //Solution 2
 public:
     ListNode* oddEvenList(ListNode* head) {
         if(!head || !head->next) {
